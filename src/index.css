@@ -81,6 +81,8 @@ hr.RampBreak--l {
 
 .RampInputSelect--root {
   width: 100%;
+  top: 0;
+  position: sticky;
 }
 
 .RampInputSelect--input {
@@ -92,7 +94,7 @@ hr.RampBreak--l {
 
 .RampInputSelect--dropdown-container {
   display: none;
-  position: fixed;
+  position: sticky;
   width: 100%;
   max-width: 700px;
   border: 1px solid var(--color-darker-shade);
