@@ -66,7 +66,7 @@ export function App() {
             }
 
             if (newValue.id === "") {
-              loadAllTransactions()
+              await loadAllTransactions()
               return
             }
 
