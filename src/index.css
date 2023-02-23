@@ -83,6 +83,7 @@ hr.RampBreak--l {
   width: 100%;
   top: 0;
   position: sticky;
+  background: var(--color-empty-shade);
 }
 
 .RampInputSelect--input {
